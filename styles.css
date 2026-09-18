@@ -1,0 +1,112 @@
+css
+/* Body and General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+/* Betting Form */
+#betting-form {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Result Styles */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.win {
+    color: #28a745; /* Green for win */
+}
+
+.lose {
+    color: #dc3545; /* Red for lose */
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}
+```
+
+### Explanation:
+
+1. **General Styles**: Ye styles body ke liye hain, jismein font family aur background color set kiya gaya hai.
+
+2. **Container Styles**: Yahan par container ki width, padding, background color, border-radius, aur box-shadow set kiya gaya hai taaki yah ek card jaisa dikhe.
+
+3. **Title Styles**: Heading ka color aur size set kiya gaya hai.
+
+4. **Betting Form**: 
+    - Input field ko 100% width diya gaya hai, jisse wo container ki width ko fill kare.
+    - Button ke liye hover effect add kiya gaya hai jo button ko press karne par change hota hai.
+
+5. **Result Styles**: Jeetne ya haarne par alag colors dikhane ke liye classes banai gayi hain.
+
+6. **Media Query**: Yeh styles smaller screens ke liye hain, jisse container ki width responsive ho jaye.
+
+### Implementation Steps:
+
+1. **Create a File**: Apne project mein `styles.css` naam se ek nayi file banayein.
+
+2. **Copy the Code**: Upar diya gaya CSS code is file mein paste karein.
+
+3. **Link CSS to HTML**: Apne `index.html` file mein link tag ko theek se include karna na bhulein:
+
+   ```html
+   <link rel="stylesheet" href="styles.css">
+   ```
+
+4. **Save Changes**: Apne sabhi changes ko save karein.
+
+5. **Open in Browser**: Apne HTML file ko browser mein kholen aur dekhein ki style kaise lag raha hai.
+
+Agar aapko aur madad chahiye ya koi specific changes karna chahte hain, toh bataiye
