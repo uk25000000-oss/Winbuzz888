@@ -24,4 +24,5 @@ document.getElementById('place-bet').addEventListener('click', function() {
     }
 
     // Clear input field after placing the bet
-    document.getElementById('bet-amount').value =  
+    document.getElementById('bet-amount').value = '';
+});
