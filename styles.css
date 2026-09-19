@@ -76,37 +76,3 @@ button:hover {
     }
 }
 ```
-
-### Explanation:
-
-1. **General Styles**: Ye styles body ke liye hain, jismein font family aur background color set kiya gaya hai.
-
-2. **Container Styles**: Yahan par container ki width, padding, background color, border-radius, aur box-shadow set kiya gaya hai taaki yah ek card jaisa dikhe.
-
-3. **Title Styles**: Heading ka color aur size set kiya gaya hai.
-
-4. **Betting Form**: 
-    - Input field ko 100% width diya gaya hai, jisse wo container ki width ko fill kare.
-    - Button ke liye hover effect add kiya gaya hai jo button ko press karne par change hota hai.
-
-5. **Result Styles**: Jeetne ya haarne par alag colors dikhane ke liye classes banai gayi hain.
-
-6. **Media Query**: Yeh styles smaller screens ke liye hain, jisse container ki width responsive ho jaye.
-
-### Implementation Steps:
-
-1. **Create a File**: Apne project mein `styles.css` naam se ek nayi file banayein.
-
-2. **Copy the Code**: Upar diya gaya CSS code is file mein paste karein.
-
-3. **Link CSS to HTML**: Apne `index.html` file mein link tag ko theek se include karna na bhulein:
-
-   ```html
-   <link rel="stylesheet" href="styles.css">
-   ```
-
-4. **Save Changes**: Apne sabhi changes ko save karein.
-
-5. **Open in Browser**: Apne HTML file ko browser mein kholen aur dekhein ki style kaise lag raha hai.
-
-Agar aapko aur madad chahiye ya koi specific changes karna chahte hain, toh bataiye
